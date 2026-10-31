@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Personal Memory Intelligence</title>
+    <link rel="stylesheet" href="popup.css" />
+  </head>
+  <body>
+    <main class="popup-shell">
+      <p class="eyebrow">Personal Memory Intelligence</p>
+      <h1>Save This Page</h1>
+      <p id="pageTitle" class="page-title">Loading active tab...</p>
+      <label class="toggle-row">
+        <span>Auto capture browsing</span>
+        <input id="autoCaptureToggle" type="checkbox" />
+      </label>
+      <button id="blockDomainButton" class="secondary-button">Block Current Domain</button>
+      <p id="blockedDomains" class="blocked-domains">No blocked domains.</p>
+      <button id="saveButton" class="save-button">Save Current Page</button>
+      <p id="statusText" class="status-text">Ready.</p>
+    </main>
+    <script src="popup.js"></script>
+  </body>
+</html>

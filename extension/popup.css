@@ -1,0 +1,91 @@
+body {
+  margin: 0;
+  min-width: 320px;
+  font-family: "Segoe UI", sans-serif;
+  background: #f4f1e8;
+  color: #182218;
+}
+
+.popup-shell {
+  padding: 18px;
+}
+
+.eyebrow {
+  margin: 0 0 8px;
+  font-size: 11px;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: #60705d;
+}
+
+h1 {
+  margin: 0 0 10px;
+  font-size: 22px;
+}
+
+.page-title {
+  min-height: 42px;
+  margin: 0 0 14px;
+  color: #334133;
+}
+
+.toggle-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 12px;
+  margin: 0 0 14px;
+  padding: 12px 14px;
+  border-radius: 14px;
+  background: #ffffff;
+  border: 1px solid rgba(24, 34, 24, 0.08);
+}
+
+.toggle-row input {
+  width: 18px;
+  height: 18px;
+}
+
+.save-button {
+  width: 100%;
+  border: 0;
+  border-radius: 14px;
+  padding: 12px 14px;
+  background: #182218;
+  color: #fffdf8;
+  font: inherit;
+  cursor: pointer;
+}
+
+.secondary-button {
+  width: 100%;
+  border: 1px solid rgba(24, 34, 24, 0.14);
+  border-radius: 14px;
+  padding: 12px 14px;
+  background: #ffffff;
+  color: #182218;
+  font: inherit;
+  cursor: pointer;
+  margin-bottom: 10px;
+}
+
+.blocked-domains {
+  margin: 0 0 14px;
+  color: #60705d;
+  font-size: 12px;
+  line-height: 1.4;
+}
+
+.save-button:disabled {
+  opacity: 0.7;
+  cursor: wait;
+}
+
+.status-text {
+  margin: 12px 0 0;
+  color: #46642f;
+}
+
+.status-text.error {
+  color: #a32020;
+}

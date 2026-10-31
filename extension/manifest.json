@@ -1,0 +1,15 @@
+{
+  "manifest_version": 3,
+  "name": "Personal Memory Intelligence Capture",
+  "version": "0.1.0",
+  "description": "Capture page content and send it to the Personal Memory Intelligence backend.",
+  "permissions": ["activeTab", "storage", "scripting", "tabs", "webNavigation"],
+  "host_permissions": ["<all_urls>", "http://127.0.0.1:8000/*"],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_title": "Save to Personal Memory Intelligence",
+    "default_popup": "popup.html"
+  }
+}
